@@ -1,0 +1,20 @@
+2021-12-03T23:33:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\laragon\www\ecommerce\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\laragon\www\ecommerce\wp-includes\class-wp-hook.php(303): OE_Menu_Icons_Picker::_save(53, 1151, Array)
+#1 C:\laragon\www\ecommerce\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\ecommerce\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\laragon\www\ecommerce\wp-includes\nav-menu.php(597): do_action('wp_update_nav_m...', 53, 1151, Array)
+#4 C:\laragon\www\ecommerce\wp-includes\nav-menu.php(1123): wp_update_nav_menu_item(53, 1151, Array)
+#5 C:\laragon\www\ecommerce\wp-includes\class-wp-hook.php(303): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object(WP_Post))
+#6 C:\laragon\www\ecommerce\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\laragon\www\ecommerce\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\laragon\www\ecommerce in C:\laragon\www\ecommerce\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
+2021-12-03T23:36:48+00:00 CRITICAL syntax error, unexpected 'columns' (T_STRING), expecting ']' in C:\laragon\www\ecommerce\wp-content\themes\oceanwp\page-inicio.php on line 10
+
+2021-12-03T23:41:34+00:00 CRITICAL syntax error, unexpected '4' (T_LNUMBER), expecting ')' in C:\laragon\www\ecommerce\wp-content\themes\oceanwp\page-inicio.php on line 10
+
+2021-12-03T23:42:39+00:00 CRITICAL syntax error, unexpected '4' (T_LNUMBER), expecting ')' in C:\laragon\www\ecommerce\wp-content\themes\oceanwp\page-inicio.php on line 10
+
+2021-12-03T23:42:51+00:00 CRITICAL syntax error, unexpected '4' (T_LNUMBER), expecting ')' in C:\laragon\www\ecommerce\wp-content\themes\oceanwp\page-inicio.php on line 10
+

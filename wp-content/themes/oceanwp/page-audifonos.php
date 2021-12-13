@@ -18,7 +18,9 @@
                             "orderby" => "date",
                             'tax_query' => array(
                                 array(
-                                  'taxonomy' => 'audifonos',
+                                  'taxonomy' => 'categoria',
+                                  'field' => 'slug',
+                                  'terms' => 'audifonos',
                                 )
                               )
                         );

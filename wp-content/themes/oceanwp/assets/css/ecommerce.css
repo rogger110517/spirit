@@ -89,12 +89,17 @@
     width: 30%;
     border: 2.5px solid #042b5b;
     padding: 20px;
-    height: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    text-align: center;
     border-radius: 20px;
+   
+  }
+  .content_noved_card {
     overflow: hidden;
+  }
+  .content_noved .content_noved_paragraph {
+    font-size: 20px;
+    margin: 20px 0px;
   }
   @media (max-width: 600px) {
     .content_noved {

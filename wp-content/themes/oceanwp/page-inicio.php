@@ -23,7 +23,7 @@
                         <h1 class="content_spirt_title">Bienvenidos a SPIRT TECH SMART</h1>
                 </div>
         <div class="product_dest">
-                 <p class="product_dest_title">Nuestras novedadess</p>
+                 <p class="product_dest_title">Nuestras novedades</p>
         </div>
         <div class="content_fluid">
                 <div class="content">

@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<link rel="stylesheet" href="<?=get_template_directory_uri()?>/assets/css/ecommerce.css" />
 	<?php wp_head(); ?>
+	
 </head>
 
 <body <?php body_class(); ?> <?php oceanwp_schema_markup( 'html' ); ?>>

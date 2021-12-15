@@ -1,8 +1,7 @@
 FROM wordpress:5.8.1-fpm-alpine
 
-WORKDIR /var/www/html
+RUN mkdir -p /var/www/html
 
-COPY ./wordpress .
-COPY ./wp-content .
+RUN apk --no-cache add shadow && usermod -u 1000 www-data
 
-CMD ["chown", "-R", "www-data:www-data", "/var/www/html/wp-content/"]
+RUN chmod -R 775 wp-content

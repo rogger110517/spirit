@@ -28,10 +28,13 @@
                 ?>
                 <?php if ($productos->have_posts()) { ?>
                 <div class="row">
-                <?php while($productos->have_posts()){$productos->the_post();?>
+                <?php while($productos->have_posts()){$productos->the_post();
+                    $img_destacada = get_the_post_thumbnail_url($post->ID);
+                    var_dump($img_destacada);
+                    ?>
                         <div class="content_noved">
                                 <div class="content_noved_card">
-                                        <img src="<?=get_template_directory_uri();?>/assets/img/novedades/novedades-1-spirt.jpg" alt="">
+                                        <img src="<?= $img_destacada ?>" alt="">
                                 </div>
                                 <div><p class="content_noved_paragraph"><?php echo the_title(); ?></p></div>
                         </div>
